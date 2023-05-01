@@ -2,12 +2,12 @@
     --font-primary-top: 'Satisfy', cursive;
     --font-primary: 'Varela Round', sans-serif;
 
-    --fs-big: 4rem;
+    --fs-big: 5rem;
     --fs-medium: 3rem;
     --fs-small: 0.7rem;
 
     --clr-primary: white;
-    --clr-primary-grdiant: linear-gradient(to bottom, #281eff, #0087ff, #00b9ff, #00e0d3, #2dff8c);
+    --clr-primary-gordian: linear-gradient(to bottom, #281eff, #0087ff, #00b9ff, #00e0d3, #2dff8c);
 }
 
 * {
@@ -29,7 +29,7 @@ html {
 
 body {
     height: 100%;
-    background-image: var(--clr-primary-grdiant);
+    background-image: var(--clr-primary-gordian);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -98,6 +98,7 @@ input:focus {
 }
 
 .formBtn {
+    cursor: pointer;
     color: var(--clr-primary);
     background-color: var(--clr-primary);
     border: none;
