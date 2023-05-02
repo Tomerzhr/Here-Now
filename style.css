@@ -81,7 +81,7 @@ label {
 input {
     border: 1px solid var(--clr-primary);
     background-color: rgba(255, 255, 255, 0.113);
-    min-width: 250px;
+    min-width: 300px;
     height: 30px;
 
 }
@@ -94,7 +94,6 @@ input:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .formBtn {
@@ -105,7 +104,7 @@ input:focus {
     color: black;
     font-size: var(--fs-small);
     padding: 0.5rem 2rem;
-    margin: 1rem 0;
+    width: 305px;
 }
 
 @media (min-width:420px) {
@@ -114,8 +113,9 @@ input:focus {
     }
 
     .formBtn {
-        margin-top: 1.8rem;
+        margin-top: 0.8rem;
         padding: 0.6rem 2rem;
+        width: auto;
 
     }
 
