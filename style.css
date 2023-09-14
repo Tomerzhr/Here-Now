@@ -103,7 +103,9 @@ input:focus {
   padding: 0.5rem 2rem;
   width: 305px;
 }
-
+.formBtn:disabled {
+  opacity: 0.5;
+}
 .confirmation-message {
   display: none;
   text-align: center;
